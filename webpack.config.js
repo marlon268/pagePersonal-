@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
-    filename: "bundle.js",
+    filename: "main.js",
   },
   resolve: {
     extensions: [".js"],
@@ -16,7 +16,7 @@ module.exports = {
         test: /\.js?$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
+          loader: 'babel-loader',
         },
       },
     ],
@@ -25,7 +25,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: true,
       template: "./public/index.html",
-      filename: "./index.html",
+      filename: "./index.html"
     }),
   ],
 };

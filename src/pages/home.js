@@ -1,11 +1,11 @@
 const Home = () => {
-  const view = `<div>
+  const view = `
+    <div>
   
-    <h2>Home</h2>
+      <h2>Home</h2>
   
-  </div>`;
-
+    </div>
+  `;
   return view;
 };
 export default Home;
-
