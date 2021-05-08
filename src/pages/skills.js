@@ -1,9 +1,11 @@
 const Skills = () => {
-  const view = `<div>
+  const view = `
+  <div class="skills">
   
     <h2>Skills</h2>
   
-  </div>`;
+  </div>
+  `;
 
   return view;
 };
