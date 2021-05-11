@@ -1,2 +1,4 @@
-# pagePersonal-
-Este repositorio contiene el código de mi pagina personal
+# Pagina personal 🧑🏽
+
+Esta es mi primera pagina personal realizada con single page aplication con javaScript vanilla
+💻😁😎
