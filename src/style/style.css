@@ -44,7 +44,7 @@ body h1 {
     margin: 0;
 }
 .nav-lista .lista li:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .header .lista img {
     margin-right: 5px;
@@ -75,8 +75,8 @@ body h1 {
     height: 80vh;
     margin-top: 50px;
 }
-.home, .projets, .skills{
-    animation-duration: 3s;
+.home, .skills{
+    animation-duration: 1s;
     animation-name: fade;
     animation-iteration-count: unset;
     align-items: center;
@@ -93,6 +93,43 @@ body h1 {
 .home img{
     margin-top: 30px;
 }
+.skills-logo{
+    display: flex;
+}
+.skills-logo h1{
+    margin: 0;
+}
+.skills-logo img {
+    width: 60px;
+}
+.skills-logos {
+    display: flex;
+    margin-top: 10px;
+}
+.skills-logos h2{
+    width: 150px;
+    font-size: 2rem;
+}
+.skills-logos img{
+    width: 50px;
+}
+.projets-text-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.container-article {
+    display: flex;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.proyecto{
+    scroll-snap-align: center;
+    margin: 0 15px;
+}
+
+
 @keyframes fade {
     from {
       opacity: 0%;
